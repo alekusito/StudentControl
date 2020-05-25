@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{641593BB-CB17-449B-B8ED-55E346179D06}|Default">
+  <MonoDevelop.Ide.ItemProperties.StudentControl PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentControl/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="StudentControl/Models/ErrorViewModel.cs" Line="9" Column="26" />
+      <File FileName="StudentControl/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
