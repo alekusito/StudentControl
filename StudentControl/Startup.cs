@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using StudentControl.DAL;
+using StudentControl.PersonServices;
+using StudentControl.PersonServices.Provider;
 
 namespace StudentControl
 {
@@ -21,11 +22,14 @@ namespace StudentControl
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            string mySqlConnectionStr = Configuration.GetConnectionString("BusinessControlConnection");
+            services.AddDbContextPool<StudentControlContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
+            services.AddScoped<IPersonService, PersonServiceProvider>();
+            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -33,11 +37,8 @@ namespace StudentControl
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
-            }
-
-            app.UseStaticFiles();
-
+                app.UseExceptionHandler("/Home/Error");                
+            }            
             app.UseStaticFiles();
 
             app.UseRouting();
@@ -46,9 +47,15 @@ namespace StudentControl
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "areaRoute",
-                    pattern: "{area:exists}/{controller}/{action}");
+                endpoints.MapAreaControllerRoute(
+                    name: "Student_area",
+                    areaName: "Student",
+                    pattern: "Student/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapAreaControllerRoute(
+                    name: "Person_area",
+                    areaName: "Person",
+                    pattern: "Person/{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",
