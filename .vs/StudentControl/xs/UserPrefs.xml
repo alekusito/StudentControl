@@ -1,25 +1,25 @@
 ﻿<Properties StartupConfiguration="{641593BB-CB17-449B-B8ED-55E346179D06}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StudentControl PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="StudentControl/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentControl/Services/Person/PersonProvider/PersonServiceProvider.cs">
     <Files>
-      <File FileName="StudentControl/Models/ErrorViewModel.cs" />
-      <File FileName="StudentControl/Controllers/HomeController.cs" />
-      <File FileName="StudentControl/appsettings.json" Line="1" Column="1" />
-      <File FileName="StudentControl/bower.json" Line="1" Column="1" />
-      <File FileName="StudentControl/bundleconfig.json" Line="1" Column="1" />
-      <File FileName="StudentControl/Program.cs" Line="1" Column="1" />
-      <File FileName="StudentControl/Startup.cs" Line="44" Column="36" />
-      <File FileName="StudentControl/Views/Home/About.cshtml" />
-      <File FileName="StudentControl/Views/Home/Contact.cshtml" />
-      <File FileName="StudentControl/Views/Home/Index.cshtml" />
-      <File FileName="StudentControl/Views/Shared/_Layout.cshtml" />
-      <File FileName="StudentControl/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="StudentControl/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="StudentControl/Services/Person/PersonProvider/Entities/Person.cs" Line="1" Column="1" />
+      <File FileName="StudentControl/Services/Person/PersonServices/Models/Person.cs" Line="19" Column="9" />
+      <File FileName="StudentControl/Services/Person/PersonServices/Models/Teacher.cs" Line="7" Column="3" />
+      <File FileName="StudentControl/Services/Student/StudentProvider/StudentServiceProvider.cs" Line="1" Column="1" />
+      <File FileName="StudentControl/Services/Person/PersonServices/Models/Student.cs" Line="52" Column="22" />
+      <File FileName="StudentControl/Services/Person/PersonServices/Models/MedicalData.cs" Line="33" Column="23" />
+      <File FileName="StudentControl/Services/Person/PersonServices/Models/GeneralData.cs" Line="2" Column="1" />
+      <File FileName="StudentControl/Startup.cs" Line="11" Column="22" />
+      <File FileName="StudentControl/Services/Person/PersonProvider/Assemblers/ModelAssembler.cs" Line="8" Column="58" />
+      <File FileName="StudentControl/Services/Person/PersonProvider/Assemblers/EntityAssembler.cs" Line="3" Column="7" />
+      <File FileName="StudentControl/DAL/StudentControlContext.cs" Line="16" Column="41" />
+      <File FileName="StudentControl/Services/Person/PersonProvider/PersonServiceProvider.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,17 +29,29 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="DAL" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Person" expanded="True">
+                  <Node name="PersonProvider" expanded="True">
+                    <Node name="Assemblers" expanded="True" />
+                    <Node name="Entities" expanded="True" />
+                  </Node>
+                  <Node name="PersonServices" expanded="True">
+                    <Node name="Models" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.StudentControl PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
 </Properties>
