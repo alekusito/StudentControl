@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StudentControl.DAL;
-using StudentControl.PersonServices;
-using StudentControl.PersonServices.Provider;
 
 namespace StudentControl
 {
@@ -22,10 +19,8 @@ namespace StudentControl
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string mySqlConnectionStr = Configuration.GetConnectionString("BusinessControlConnection");
-            services.AddDbContextPool<StudentControlContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
-            services.AddScoped<IPersonService, PersonServiceProvider>();
-            services.AddControllersWithViews().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNameCaseInsensitive = true);
+            services.AddControllersWithViews();
+            services.RegisterDataServices(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,9 +43,9 @@ namespace StudentControl
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapAreaControllerRoute(
-                    name: "Student_area",
-                    areaName: "Student",
-                    pattern: "Student/{controller=Home}/{action=Index}/{id?}");
+                    name: "Parametrization_area",
+                    areaName: "Parametrization",
+                    pattern: "Parametrization/{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapAreaControllerRoute(
                     name: "Person_area",

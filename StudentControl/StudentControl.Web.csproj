@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'StudentControl' " />
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="bootstrap" />
+    <None Remove="FontAwesome" />
+    <None Remove="jQuery" />
+    <None Remove="jQuery.Validation" />
+    <None Remove="MySqlConnector" />
+    <None Remove="Pomelo.EntityFrameworkCore.MySql" />
+    <None Remove="Areas\Student\Controllers\" />
+    <None Remove="Areas\Student\Models\" />
+    <None Remove="Areas\Student\Views\" />
+    <None Remove="Areas\Parametrization\" />
+    <None Remove="Areas\Parametrization\Controllers\" />
+    <None Remove="Areas\Parametrization\Models\" />
+    <None Remove="Areas\Parametrization\Views\" />
+    <None Remove="Delegates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="bootstrap" Version="5.2.3" />
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="jQuery" Version="3.6.4" />
+    <PackageReference Include="jQuery.Validation" Version="1.19.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\ProjectScripts\Person\" />
+    <Folder Include="wwwroot\ProjectScripts\Parametrization\" />
+    <Folder Include="Areas\Person\Controllers\" />
+    <Folder Include="Areas\Person\Models\" />
+    <Folder Include="Areas\Person\Views\" />
+    <Folder Include="Areas\Parametrization\" />
+    <Folder Include="Areas\Parametrization\Controllers\" />
+    <Folder Include="Areas\Parametrization\Models\" />
+    <Folder Include="Areas\Parametrization\Views\" />
+    <Folder Include="Delegates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\ProjectScripts\Student\" />
+    <Content Remove="wwwroot\ProjectScripts\Parametrization\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Services\Parametrization\ParametrizationProvider\Assemblers\EntityAssembler.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationProvider\Assemblers\ModelAssembler.cs" />
+    <Compile Remove="Services\Person\PersonProvider\PersonServiceProvider.cs" />
+    <Compile Remove="Services\Person\PersonProvider\Assemblers\ModelAssembler.cs" />
+    <Compile Remove="Services\Person\PersonProvider\Assemblers\EntityAssembler.cs" />
+    <Compile Remove="Services\Person\PersonProvider\Entities\Person.cs" />
+    <Compile Remove="Services\Person\PersonServices\IPersonService.cs" />
+    <Compile Remove="Services\Person\PersonServices\Models\MedicalData.cs" />
+    <Compile Remove="Services\Person\PersonServices\Models\Person.cs" />
+    <Compile Remove="Services\Person\PersonServices\Models\Teacher.cs" />
+    <Compile Remove="Services\Person\PersonServices\Models\Student.cs" />
+    <Compile Remove="Services\Person\PersonServices\Models\GeneralData.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationProvider\ParametrizationServiceProvider.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationProvider\Entities\Belt.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationServices\IParametrizationService.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationServices\Models\Belt.cs" />
+    <Compile Remove="Services\Parametrization\ParametrizationProvider\DAOs\BeltDAO.cs" />
+    <Compile Remove="DAL\StudentControlContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudentControlServices\StudentControl.Services.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

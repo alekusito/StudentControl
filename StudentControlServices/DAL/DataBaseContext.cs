@@ -4,9 +4,9 @@ using ParametrizationEntities = StudentControl.ParametrizationServices.Entities;
 
 namespace StudentControl.DAL
 {
-    public class StudentControlContext : DbContext
+    public class DataBaseContext : DbContext
     {
-        public StudentControlContext(DbContextOptions<StudentControlContext> options) : base(options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
         }
 

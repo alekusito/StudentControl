@@ -63,3 +63,110 @@ StudentControl/obj/StudentControl.csproj.nuget.g.targets
 StudentControl/obj/project.assets.json
 StudentControl/obj/StudentControl.csproj.nuget.g.props
 .vs/StudentControl/xs/UserPrefs.xml
+.vs/StudentControl/xs/project-cache/StudentControl.Services-Debug.json
+.vs/StudentControl/xs/project-cache/StudentControl.Web-Debug.json
+.vs/StudentControl/xs/project-cache/StudentControlServices-Debug.json
+.vs/StudentControl/xs/project-cache/test-Debug.json
+.vs/StudentControl/xs/UserPrefs.xml
+.vs/StudentControl/xs/UserPrefs.xml
+.vs/StudentControl/xs/UserPrefs.xml
+.vs/StudentControl/xs/UserPrefs.xml
+StudentControl/bin/Debug/net7.0/Humanizer.dll
+StudentControl/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+StudentControl/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+StudentControl/bin/Debug/net7.0/Mono.TextTemplating.dll
+StudentControl/bin/Debug/net7.0/StudentControl.Services.dll
+StudentControl/bin/Debug/net7.0/StudentControl.Services.pdb
+StudentControl/bin/Debug/net7.0/StudentControl.Web
+StudentControl/bin/Debug/net7.0/StudentControl.Web.deps.json
+StudentControl/bin/Debug/net7.0/StudentControl.Web.dll
+StudentControl/bin/Debug/net7.0/StudentControl.Web.pdb
+StudentControl/bin/Debug/net7.0/StudentControl.Web.runtimeconfig.json
+StudentControl/bin/Debug/net7.0/StudentControl.Web.staticwebassets.runtime.json
+StudentControl/bin/Debug/net7.0/StudentControlServices.dll
+StudentControl/bin/Debug/net7.0/StudentControlServices.pdb
+StudentControl/bin/Debug/net7.0/System.CodeDom.dll
+StudentControl/obj/Debug/net7.0/ref/StudentControl 2.dll
+StudentControl/obj/Debug/net7.0/ref/StudentControl.Web.dll
+StudentControl/obj/Debug/net7.0/refint/StudentControl 2.dll
+StudentControl/obj/Debug/net7.0/refint/StudentControl.Web.dll
+StudentControl/obj/Debug/net7.0/staticwebassets.build 2.json
+StudentControl/obj/Debug/net7.0/staticwebassets.development 2.json
+StudentControl/obj/Debug/net7.0/staticwebassets.pack 2.json
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.build.StudentControl 2.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.build.StudentControl.Web.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.StudentControl 2.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.StudentControl.Web.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.StudentControl 2.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.StudentControl.Web.props
+StudentControl/obj/Debug/net7.0/staticwebassets/msbuild.StudentControl.Web.Microsoft.AspNetCore.StaticWebAssets.props
+StudentControl/obj/Debug/net7.0/StudentControl 2.dll
+StudentControl/obj/Debug/net7.0/StudentControl 2.pdb
+StudentControl/obj/Debug/net7.0/StudentControl.csproj 2.CopyComplete
+StudentControl/obj/Debug/net7.0/StudentControl.genruntimeconfig 2.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.AssemblyInfo.cs
+StudentControl/obj/Debug/net7.0/StudentControl.Web.AssemblyInfoInputs.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.assets.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.csproj.AssemblyReference.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.csproj.CopyComplete
+StudentControl/obj/Debug/net7.0/StudentControl.Web.csproj.CoreCompileInputs.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.csproj.FileListAbsolute.txt
+StudentControl/obj/Debug/net7.0/StudentControl.Web.dll
+StudentControl/obj/Debug/net7.0/StudentControl.Web.GeneratedMSBuildEditorConfig.editorconfig
+StudentControl/obj/Debug/net7.0/StudentControl.Web.genruntimeconfig.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.MvcApplicationPartsAssemblyInfo.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.pdb
+StudentControl/obj/Debug/net7.0/StudentControl.Web.RazorAssemblyInfo.cache
+StudentControl/obj/Debug/net7.0/StudentControl.Web.RazorAssemblyInfo.cs
+StudentControl/obj/project.assets.json
+StudentControl/obj/StudentControl.csproj.nuget.g.props
+StudentControl/obj/StudentControl.csproj.nuget.g.targets
+StudentControl/obj/StudentControl.Web.csproj.nuget.dgspec.json
+StudentControl/obj/StudentControl.Web.csproj.nuget.g.props
+StudentControl/obj/StudentControl.Web.csproj.nuget.g.targets
+StudentControlServices/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+StudentControlServices/obj/Debug/net7.0/ref/StudentControl.Services.dll
+StudentControlServices/obj/Debug/net7.0/ref/StudentControlServices.dll
+StudentControlServices/obj/Debug/net7.0/refint/StudentControl.Services.dll
+StudentControlServices/obj/Debug/net7.0/refint/StudentControlServices.dll
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.AssemblyInfo.cs
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.AssemblyInfoInputs.cache
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.assets.cache
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.csproj.AssemblyReference.cache
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.csproj.CoreCompileInputs.cache
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.csproj.FileListAbsolute.txt
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.dll
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.GeneratedMSBuildEditorConfig.editorconfig
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.genruntimeconfig.cache
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.GlobalUsings.g.cs
+StudentControlServices/obj/Debug/net7.0/StudentControl.Services.pdb
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.AssemblyInfo.cs
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.AssemblyInfoInputs.cache
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.assets.cache
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.csproj.AssemblyReference.cache
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.csproj.CoreCompileInputs.cache
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.csproj.FileListAbsolute.txt
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.dll
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.GeneratedMSBuildEditorConfig.editorconfig
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.GlobalUsings.g.cs
+StudentControlServices/obj/Debug/net7.0/StudentControlServices.pdb
+StudentControlServices/obj/project.assets.json
+StudentControlServices/obj/project.nuget.cache
+StudentControlServices/obj/StudentControl.Services.csproj.nuget.dgspec.json
+StudentControlServices/obj/StudentControl.Services.csproj.nuget.g.props
+StudentControlServices/obj/StudentControl.Services.csproj.nuget.g.targets
+StudentControlServices/obj/StudentControlServices.csproj.nuget.dgspec.json
+StudentControlServices/obj/StudentControlServices.csproj.nuget.g.props
+StudentControlServices/obj/StudentControlServices.csproj.nuget.g.targets
+StudentControlServices/bin/Debug/net7.0/StudentControl.Services.deps.json
+StudentControlServices/bin/Debug/net7.0/StudentControl.Services.dll
+StudentControlServices/bin/Debug/net7.0/StudentControl.Services.pdb
+StudentControlServices/bin/Debug/net7.0/StudentControl.Services.runtimeconfig.json
+StudentControlServices/bin/Debug/net7.0/StudentControlServices.deps.json
+StudentControlServices/bin/Debug/net7.0/StudentControlServices.dll
+StudentControlServices/bin/Debug/net7.0/StudentControlServices.pdb
+StudentControl/obj/project.assets.json
+StudentControl/obj/StudentControl.csproj.nuget.g.props
+StudentControl/obj/StudentControl.csproj.nuget.g.targets
+.DS_Store
+.vs/StudentControl/xs/UserPrefs.xml
