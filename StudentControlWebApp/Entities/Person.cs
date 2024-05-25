@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.SignalR;
 
@@ -6,7 +7,7 @@ namespace StudentControlWebApp.Entities;
 [Table("PERSON")]
 public class Person
 {
-    [Column("INDIVIDUAL_ID")]
+    [Column("INDIVIDUAL_ID"), Key]
     public int IndividualId { get; set; }
 
     [Column("DOCUMENT_NUMBER")]

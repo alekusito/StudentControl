@@ -6,12 +6,12 @@ using StudentControlWebApp.Assemblers;
 using StudentControlWebApp.Assemblers.ModelAssembler;
 
 namespace SampleMVCApps.Controllers
-{    
+{
     public class BeltController : Controller
     {
         #region Context
 
-        private readonly ApplicationDbContext _appDbContext;        
+        private readonly ApplicationDbContext _appDbContext;
 
         public BeltController(ApplicationDbContext appDbContext)
         {
@@ -27,14 +27,15 @@ namespace SampleMVCApps.Controllers
         #endregion Controllers
 
         public IActionResult Belt()
-        {            
+        {
             return View();
         }
 
-        public List<Models.Belt> GetBelts()
-        {            
+        [HttpPost("Belt/GetBelts")]
+        public JsonResult GetBelts()
+        {
             List<Entities.Belt> beltEntities = _appDbContext.Belts.ToList();
-            return _modelAssembler.CreateBelts(beltEntities);
-        }    
+            return Json(_modelAssembler.CreateBelts(beltEntities));
+        }
     }
 }
