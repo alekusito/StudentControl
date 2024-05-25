@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/StudentControlWebApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/ProjectScripts/Belt.js",
+      "PackagePath": "staticwebassets/ProjectScripts/Belt.js"
+    },
+    {
       "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -85,6 +89,10 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-table.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-table.min.css"
+    },
+    {
       "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
@@ -147,6 +155,14 @@
     {
       "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/font/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/font/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap-table.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap-table.min.js"
     },
     {
       "Id": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",

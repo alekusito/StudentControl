@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rMmOan5P0Eo6aUZoWd62itiVVGoI6EyLlo34y0p39Wo=",
+  "Hash": "6eoV8d9voHRBmAcoaunuUXrAV9nZ8F8aySi/c1Q9Z5U=",
   "Source": "StudentControlWebApp",
   "BasePath": "_content/StudentControlWebApp",
   "Mode": "Default",
@@ -416,6 +416,25 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
+      "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-table.min.css",
+      "SourceId": "StudentControlWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/",
+      "BasePath": "_content/StudentControlWebApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-table.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-table.min.css"
+    },
+    {
       "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "StudentControlWebApp",
       "SourceType": "Discovered",
@@ -718,6 +737,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/font/bootstrap-icons.css",
+      "SourceId": "StudentControlWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/",
+      "BasePath": "_content/StudentControlWebApp",
+      "RelativePath": "lib/bootstrap/dist/font/bootstrap-icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/font/bootstrap-icons.css"
+    },
+    {
+      "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap-table.min.js",
+      "SourceId": "StudentControlWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/",
+      "BasePath": "_content/StudentControlWebApp",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap-table.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap-table.min.js"
     },
     {
       "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
@@ -1193,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/ProjectScripts/Belt.js",
+      "SourceId": "StudentControlWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alejo/Projects/StudentControl/StudentControlWebApp/wwwroot/",
+      "BasePath": "_content/StudentControlWebApp",
+      "RelativePath": "ProjectScripts/Belt.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ProjectScripts/Belt.js"
     }
   ]
 }
