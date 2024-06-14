@@ -10,6 +10,7 @@ namespace StudentControlWebApp.Data
         }
 
         public DbSet<Belt> Belts { get; set; }
+        public DbSet<Person> Persons {get; set;}
 
         /// <summary>
         /// Se mapea la entidad con la tabla en la BDD

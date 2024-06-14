@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Personas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listado de Personas</h2>
+<hr>
+<p></p>
+<div class="row">
+    <div class="col-12">
+        <table id="personTable" data-toggle="table" class="table table-striped" data-side-pagination="server">
+            <thead>
+                <tr>
+                    <th data-field="individualId">ID</th>
+                    <th data-field="documentNumber">Cédula</th>
+                    <th data-field="firstName">Nombre</th>
+                    <th data-field="middleName">S. Nombre</th>
+                    <th data-field="lastName">Apellido</th>
+                    <th data-field="secondLastName">S. Apellido</th>
+                    <th data-field="formatedBirthDate">F. Nacimiento</th>
+                    <th data-field="age">Edad</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript" src="@Url.Content("~/ProjectScripts/Person.js")"></script>
+}

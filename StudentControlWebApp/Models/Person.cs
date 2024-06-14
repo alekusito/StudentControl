@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations.Schema;
-
 namespace StudentControlWebApp.Models;
 
 public class Person
@@ -25,4 +23,8 @@ public class Person
     public string? CellphoneNumber { get; set; }
 
     public string? MailAddress { get; set; }
+
+    public List<Person>? Contacts {get; set; }
+
+    public List<MedicalCondition>? MedicalConditions {get; set; }
 }

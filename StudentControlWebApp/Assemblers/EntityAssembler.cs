@@ -18,5 +18,26 @@ namespace StudentControlWebApp.Assemblers.EntityAssembler
 
             return beltEntity;
         }
+
+        public Entities.Person CreatePerson(Models.Person person)
+        {
+            Entities.Person personEntity = new Entities.Person
+            {
+                IndividualId = 0, //autonumérico
+                DocumentNumber = person.DocumentNumber,
+                FirstName = person.FirstName,
+                MiddleName = person.MiddleName,
+                LastName = person.LastName,
+                SecondLastName = person.SecondLastName,
+                BirthDate = person.BirthDate,
+                Address = person.Address,
+                PhoneNumber = person.PhoneNumber,
+                CellphoneNumber = person.CellphoneNumber,
+                MailAddress = person.MailAddress
+            };
+
+            return personEntity;
+        }
+        
     }
 }
