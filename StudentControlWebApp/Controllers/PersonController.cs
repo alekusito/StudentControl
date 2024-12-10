@@ -85,7 +85,7 @@ namespace SampleMVCApps.Controllers
         }
 
         [HttpPost("Person/DeletePerson")]
-        public void UpdatePerson(int individualId)
+        public void DeletePerson(int individualId)
         {
             Entities.Person personEntity = _appDbContext.Persons.FirstOrDefault(x => x.IndividualId == individualId);
 

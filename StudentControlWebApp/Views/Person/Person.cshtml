@@ -8,7 +8,10 @@
 <p></p>
 <div class="row">
     <div class="col-12">
-        <table id="personTable" data-toggle="table" class="table table-striped" data-side-pagination="server">
+        <div id="PersonTableToolbar">
+            <button type="button" id="AddPerson" class="btn btn-primary float-end">Nuevo</button>
+        </div>
+        <table id="personTable" data-toggle="table" class="table table-striped" data-side-pagination="server" data-toolbar="#PersonTableToolbar">
             <thead>
                 <tr>
                     <th data-field="individualId">ID</th>
@@ -19,6 +22,7 @@
                     <th data-field="secondLastName">S. Apellido</th>
                     <th data-field="formatedBirthDate">F. Nacimiento</th>
                     <th data-field="age">Edad</th>
+                    <th data-field="actions">Acciones</th>
                 </tr>
             </thead>
         </table>

@@ -35,30 +35,30 @@ function LoadPersons(){
     });
 }
 
-function SavePersonDummy(){
-debugger;
-    var person = new PersonModel();
-    person.DocumentNumber = '1714233655';
-    person.FirstName = 'Alejandro';
-    person.MiddleName = 'Patricio';
-    person.LastName = 'Villagran';
-    person.SecondLastName = 'Palacio';
-    person.BirthDate = '07/08/1982';
-    person.Address = 'Carcelén';
-    person.PhoneNumber = '2471466';
-    person.CellphoneNumber = '0992779709';
-    person.MailAddress = 'alekusito@yahoo.com';
+// function SavePersonDummy(){
+// debugger;
+//     var person = new PersonModel();
+//     person.DocumentNumber = '1714233655';
+//     person.FirstName = 'Alejandro';
+//     person.MiddleName = 'Patricio';
+//     person.LastName = 'Villagran';
+//     person.SecondLastName = 'Palacio';
+//     person.BirthDate = '07/08/1982';
+//     person.Address = 'Carcelén';
+//     person.PhoneNumber = '2471466';
+//     person.CellphoneNumber = '0992779709';
+//     person.MailAddress = 'alekusito@yahoo.com';
 
-    $.ajax({
-        url: SITE_ROOT + "Person/SavePerson",
-        data: {person: person},
-        type: "POST",        
-        success: function success(data) {
-            debugger;
-            LoadPersons()
-        }
-    });
-}
+//     $.ajax({
+//         url: SITE_ROOT + "Person/SavePerson",
+//         data: {person: person},
+//         type: "POST",        
+//         success: function success(data) {
+//             debugger;
+//             LoadPersons()
+//         }
+//     });
+// }
 
 
 //#endregion Funciones
